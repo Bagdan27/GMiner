@@ -37,12 +37,12 @@ public class Project {
     public List<Issue> getIssues() { return issues; }
     public void setIssues(List<Issue> issues) { this.issues = issues; }
 
-    // Метод main для тестирования
+    // Metod main for testing
     public static void main(String[] args) {
         // Создаем экземпляр Project
         Project project = new Project("johnDoe", "GitMiner");
 
-        // Выводим информацию на экран
+        // Just info on screen
         System.out.println("Project Owner: " + project.getOwner());
         System.out.println("Repo Name: " + project.getRepoName());
     }
